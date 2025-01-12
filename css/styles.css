@@ -1,0 +1,171 @@
+body {
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    color: #333; 
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 1rem; /* Basislettergrootte (16px, bij een standaard browserinstelling) */
+}
+
+/* Media query voor tablets en kleinere apparaten */
+@media (max-width: 1024px) {
+    body {
+        font-size: 0.9rem; /* Iets kleiner lettertype (14.4px) */
+    }
+}
+
+/* Media query voor telefoons */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.8rem; /* Nog kleiner lettertype (12.8px) */
+    }
+}
+
+/* Media query voor heel kleine schermen (bijvoorbeeld oude telefoons) */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.75rem; /* Klein lettertype (12px) */
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; 
+    }
+}
+
+.header {
+    background-color: #ddc7a8;
+    padding: 0.625em 1.25em;
+    box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+.header-logo {
+    max-width: 4.375em; 
+    height: auto; 
+    margin-right: 0.9375em; 
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #444;
+    margin: 0; 
+}
+
+main {
+    padding: 1.25em;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+    text-align: center;
+    margin-bottom: 0.9375em;
+    border-bottom: 0.125em solid #ccc;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
+}
+
+em {
+    font-style: italic; 
+    font-family: "Times New Roman", serif; 
+    font-size: 1.1em; 
+    color: #444; 
+}
+
+.bucket-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bucket-image {
+    max-width: 7.5em;
+    margin-left: 1.25em;
+}
+
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 1.25em;
+    margin: 1.25em;
+    border-radius: 0.625em; 
+    box-shadow: 0 0.25em 0.625em rgba(0, 0, 0, 0.2); 
+}
+
+.about-image {
+    max-width: 12.5em;
+    margin-left: 1.25em;
+}
+
+@media (max-width: 768px) {
+    
+.about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bucket-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+}
+    
+.offer {
+    margin-top: 1.25em;
+}
+
+.email {
+    color: blue;
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+.telefoon {
+    color: blue;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ddc7a8;
+    color: #444;
+    padding: 0.625em 0;
+    margin-top: 1.25em;
+}
